@@ -1,5 +1,29 @@
 # Technical Assessment
 
+## Getting Started
+
+First, install dependencies:
+
+```bash
+npm i
+# or
+yarn
+```
+
+Then, run the development server:
+
+```bash
+npm run dev
+# or
+yarn dev
+```
+
+### 1. Coding Assessment
+
+Calculate the diameter of the sun using a binary tree and bubble sort...that was a joke!
+
+### 2. Coding Assessment
+
 Develop a simple product detail page following the next requirements:
 
 1. Fetch product data from `/api/product` endpoint, and handle possible errors.
@@ -19,21 +43,3 @@ Develop a simple product detail page following the next requirements:
    - Success
 
 5. Make it adaptable for mobile view. (Optional)
-
-## Getting Started
-
-First, install dependencies:
-
-```bash
-npm i
-# or
-yarn
-```
-
-Then, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-```
