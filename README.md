@@ -43,3 +43,9 @@ Develop a simple product detail page following the next requirements:
    - Success
 
 5. Make it adaptable for mobile view. (Optional)
+
+### Things we are looking for:
+
+- Code optimizations and reusability
+- Type safety
+- The fewer re-renders the better
