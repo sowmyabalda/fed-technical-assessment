@@ -1,11 +1,18 @@
 # Technical Assessment
 
-1. Fetch product data from `/api/product`
-2. Using the product data render the following product details:
+Develop a simple product detail page following the next requirements:
+
+1. Fetch product data from `/api/product` endpoint, and handle possible errors.
+2. Using the product data render the following details:
    - Primary image
    - Title
    - SKU
-3. Render two lists of product variation values classified type
+3. Render two lists of variation values classified by type (Size and Finish)
+4. The component should have 3 possible results:
+   - Loading (initial)
+   - Error
+   - Success
+
 
 ## Getting Started
 
