@@ -1,6 +1,6 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import ProductDetails from "components/ProductDetail";
+import ProductDetails from "components/ProductDetails";
 
 const PDP: NextPage = () => (
   <div className="container">
