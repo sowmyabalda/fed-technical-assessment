@@ -2,7 +2,14 @@
 
 ## Getting Started
 
-First, install dependencies:
+First, clone the repo:
+
+```bash
+git clone https://github.com/fveracoechea/fed-technical-assessment.git
+cd fed-technical-assessment
+```
+
+Second, install dependencies:
 
 ```bash
 npm i
