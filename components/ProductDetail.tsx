@@ -29,6 +29,9 @@ const useProduct = () => {
         if (isProduct(json)) {
           setProduct(json);
         }
+      })
+      .catch(() => {
+        setError("Network error...");
       });
   }, []);
 
