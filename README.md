@@ -46,6 +46,7 @@ Develop a simple product detail page following the next requirements:
 
 ### Things we are looking for:
 
+- No npm installs
 - Code optimizations and reusability
 - Type safety
 - The fewer re-renders the better
