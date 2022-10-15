@@ -82,5 +82,5 @@ export interface SizeEntityOrFinishEntity {
 }
 
 export type ErrorResponse = {
-  message: string;
+  errorMessage: string;
 };

@@ -5,7 +5,7 @@
    - Primary image
    - Title
    - SKU
-3. Render a list of product variations classified by variation type
+3. Render two lists of product variation values classified type
 
 ## Getting Started
 

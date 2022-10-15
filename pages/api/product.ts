@@ -2,7 +2,7 @@
 import type { NextApiRequest, NextApiResponse } from "next";
 import { Product, ErrorResponse } from "types/Product";
 
-const sleep = () => new Promise((r) => setTimeout(r, 2000));
+const sleep = () => new Promise((r) => setTimeout(r, 1500));
 
 /**
  * Fake APi endpoint
@@ -14,7 +14,9 @@ export default async function handler(
   await sleep();
 
   if (Math.random() > 0.5) {
-    res.status(404).json({ message: "Product not found, please try again..." });
+    res
+      .status(404)
+      .json({ errorMessage: "Product not found, please try again..." });
     return;
   }
 
