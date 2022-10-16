@@ -2,7 +2,7 @@
 import type { NextApiRequest, NextApiResponse } from "next";
 import { Product, ErrorResponse } from "types/Product";
 
-const sleep = () => new Promise((r) => setTimeout(r, 1500));
+const sleep = () => new Promise((r) => setTimeout(r, 1200));
 
 /**
  * Fake APi endpoint

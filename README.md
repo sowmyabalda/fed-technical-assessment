@@ -46,8 +46,11 @@ Develop a simple product detail page following the next requirements:
 4. The component should have 3 possible results:
 
    - Loading (initial)
+     ![Loading](https://raw.githubusercontent.com/fveracoechea/fed-technical-assessment/main/pdp-loading.png)
    - Error
+     ![Loading](https://raw.githubusercontent.com/fveracoechea/fed-technical-assessment/main/pdp-error.png)
    - Success
+     ![Loading](https://raw.githubusercontent.com/fveracoechea/fed-technical-assessment/main/pdp-success.png)
 
 5. Make it adaptable for mobile view. (Optional)
 
