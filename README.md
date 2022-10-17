@@ -2,14 +2,10 @@
 
 ## Getting Started
 
-First, clone the repo:
+First, fork the repo:
+https://github.com/fveracoechea/fed-technical-assessment.git
 
-```bash
-git clone https://github.com/fveracoechea/fed-technical-assessment.git
-cd fed-technical-assessment
-```
-
-Second, install dependencies:
+Second, open the repo in preferred editor & install dependencies:
 
 ```bash
 npm i
@@ -52,7 +48,10 @@ Develop a simple product detail page following the next requirements:
    - Success
      ![Loading](https://raw.githubusercontent.com/fveracoechea/fed-technical-assessment/main/pdp-success.png)
 
-5. Make it adaptable for mobile view. (Optional)
+5.  Open a PR with your updates!
+
+Optional Tasks:
+  Make it adaptable for mobile view.
 
 ### Things we are looking for:
 
