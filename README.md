@@ -21,15 +21,22 @@ npm run dev
 yarn dev
 ```
 
+Lets ensure the server is running by checking to see if we can fetch a product:
+
+  Visit http://localhost:3000/api/product
+
+  If you see json data OR a message: "Product not found, please try again..." you're ready to go!
+  (More on why theres 2 possible response later)
+
 ### 1. Coding Assessment
 
 Calculate the diameter of the sun using a binary tree and bubble sort...that was a joke!
 
 ### 2. Coding Assessment
 
-Develop a simple product detail page following the next requirements:
+Develop a simple product detail page following the below requirements.  Please treat this as a paired programming collaboration and feel free to use Google if/when necessary. 
 
-1. Fetch product data from `/api/product` endpoint, and handle possible errors.
+1. Fetch product data from `/api/product` endpoint and handle any errors.  *Hint: you will randomly encounter error responses as previously mentioned.
 
 2. Using the product data render the following details:
 
@@ -37,7 +44,7 @@ Develop a simple product detail page following the next requirements:
    - Title
    - SKU
 
-3. Render two lists of variation values classified by type (Size and Finish)
+3. Render two lists of `variation` values classified by type (Size and Finish)
 
 4. The component should have 3 possible results:
 
