@@ -1,8 +1,23 @@
 /* eslint-disable @next/next/no-img-element */
-import React, { FC } from "react";
 
-const ProductDetails: FC = () => {
-  return <section className="product"></section>;
+type ProductDetailsProps = {
+  primary_image?: string | null;
+  title?: string | null;
+  sku?: string | null;
 };
 
-export default ProductDetails;
+const defaultTitle = "Lorem ipsum dolor sit amet";
+
+export default function ProductDetails({
+  primary_image = null,
+  title = null,
+  sku = null,
+}: ProductDetailsProps) {
+  return (
+    <div className="details">
+      <img src={primary_image || "no-image"} alt={title || defaultTitle} />
+      <h2>{title || defaultTitle}</h2>
+      <h4>SKU: {sku || "000000"}</h4>
+    </div>
+  );
+}

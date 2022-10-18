@@ -11,3 +11,31 @@
   flex-direction: column;
   justify-content: flex-start;
 }
+
+section.product {
+  display: flex;
+}
+
+.details {
+  width: 50%;
+  padding: 1rem;
+}
+
+.details img {
+  width: 100%;
+  height: auto;
+}
+
+.variations {
+  padding: 1rem;
+  width: 50%;
+}
+
+.variations h3 {
+  border-bottom: solid 1px white;
+  padding-bottom: 6px;
+}
+
+.variations ul li {
+  padding-bottom: 6px;
+}
